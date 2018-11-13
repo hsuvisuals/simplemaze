@@ -5,13 +5,13 @@ function setup() {
 }
 
 function draw() {
- 
-  
+
+
   //ellipse
   noStroke();
    fill(random(255), random(255), 0);
   ellipse(mouseX, mouseY, 50, 50);
-  
+   
   //rect
   fill(34, 143, 200);
   rect(0,50,100,100);
